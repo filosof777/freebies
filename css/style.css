@@ -1,0 +1,177 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  padding: 40px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-color {
+  background: #F2F2F2;
+}
+
+.card {
+  width: 680px;
+  /* padding: 20px; */
+  
+}
+
+.hero {
+  width: 278px;
+  border-radius: 21.25px 0px 0px 21.25px;
+  background-color: #FFD500;
+}
+
+.hero-inner {
+  padding: 80px 50px 60px 50px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  margin: 0;
+  align-items: flex-end;
+  text-align: center;
+  color: #383838;  
+  margin-top: 57px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #383838;
+}
+
+.arrow {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 32px;
+  background-color: #383838;
+}
+
+.des {
+  background-color: #fff;
+  width: 402px;
+  border-radius: 0 21.25px 21.25px 0;
+}
+
+.inner-des {
+  padding: 53px 71px;
+}
+
+#name,
+#data,
+#email,
+#number,
+#cost {
+  margin-top: 10px;
+  padding: 8px 10px;
+  width: 191px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373D40;   
+  background: #F5F8F9; 
+  border: none; 
+  border-radius: 2.64604px;
+}
+
+#gender,
+.card {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373D40; 
+}
+
+#gender {
+  display: none;
+}
+
+.gender-sec,
+.card-sec {
+  margin-top: 10px;
+}
+
+label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373D40;
+}
+
+.gender-text {
+  margin-right: 20px;
+}
+
+.img {
+  margin-left: 35px;
+}
+
+.inp-card {
+  display: none;
+}
+
+.img-card {
+  margin-left: 20px;
+}
+
+.btn-sec {
+  margin-top: 41px;
+  margin-bottom: 30px;
+}
+
+.cencel {
+  padding: 9px 30px;
+}
+
+.save {
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  padding: 9px 30px;
+  border: 1px solid #60E6C5;
+  transition: all 0.5s ease;
+}
+
+.save:hover {
+  background: #60E6C5;
+  border-radius: 2.64604px;
+  border: none;
+  color: #fff;
+}

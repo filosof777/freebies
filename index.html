@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freebies</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/column.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container card-color center">
+    <div class="card center row">
+      <div class="hero">
+        <div class="hero-inner align-center center">
+          <img src="img/hero.svg" alt="hero" width="120" height="120">
+          <h2 class="title">Let's get you set up</h2>
+          <p class="text">Itshould only take a couple of minutes to pair with <br>your watch</p>
+          <div class="arrow center align-center row">
+            <img src="img/arrow.png" alt="arrow" width="8.2" height="14.5">
+          </div>
+        </div>
+      </div>
+      <div class="des">
+        <div class="inner-des">
+          <form action="https://echo.htmlacademy.ru/" method="POST">
+
+            <div class="name-sec row between align-center">
+              <label class="label-name" for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Name...">
+            </div>
+
+            <div class="gender-sec row between align-center">
+              <label for="gender">Gender</label>
+              <img class="img" src="img/male.png" alt="male" width="24" height="24">
+              <input type="radio" name="male" id="gender"> <p class="gender-text">Male</p>
+              <img class="img" src="img/female.png" alt="female" width="24" height="24">
+              <input type="radio" name="female" id="gender"> <p class="gender-text">Female</p>
+            </div>
+
+            <div class="data-sec row between align-center">
+              <label class="label-data" for="data">Date of<br>Birth</label>
+              <input type="datetime-local" name="data" id="data" placeholder="01/02/1983">
+            </div>
+
+            <div class="email-sec row between align-center">
+              <label class="label-email" for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="kendall@emailcom">
+            </div>
+
+            <div class="number-sec row between align-center">
+              <label class="label-number" for="number">Number</label>
+              <input type="number" name="number" id="number" placeholder="+91 98765 43210">
+            </div>
+
+            <div class="cost-sec row between align-center">
+              <label class="label-cost" for="cost">Customer ID</label>
+              <input type="text" name="cost" id="cost" placeholder="576802-ERD0348 45">
+            </div>
+
+            <div class="card-sec row between align-center">
+              <label for="card">Membership</label>
+              <img class="img-card" src="img/card.png" alt="male" width="26" height="26">
+              <input class="inp-card" type="radio" name="classic" id="card"> Classic
+              <img class="img-card" src="img/card.png" alt="male" width="26" height="26">
+              <input class="inp-card" type="radio" name="silver" id="card"> Silver
+              <img class="img-card" src="img/card.png" alt="male" width="26" height="26">
+              <input class="inp-card" type="radio" name="gold" id="card"> Gold
+            </div>
+
+            <div class="btn-sec row center evenly">
+              <button class="cencel" type="reset">CENCEL</button>
+              <button class="save" type="submit">SAVE</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
